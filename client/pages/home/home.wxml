@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<view class='focus-bunch'>
+  <view class='focus-header'>商品1</view>
+  <image class='focus-notice' src='/images/discount.png'></image>
+  <image class='focus-image' src='/images/discount-product.jpg'></image>
+</view>
+
+<view class='separator'>
+  春季推荐
+</view>

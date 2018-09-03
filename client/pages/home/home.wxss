@@ -1,0 +1,16 @@
+/* pages/home/home.wxss */
+.focus-group {
+  background-color: #FFFFFF
+}
+.focus-notice {
+  background-color: #f5d20d
+}
+.focus-image {
+
+}
+
+.separator {
+  font-weight: 700;
+  display: flex;
+  align-items: center
+}
