@@ -1,0 +1,12 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx040e3d78dfc7581c",
+	"projectname": "Practice_WeChatMiniProgram_Mart",
+	"condition": {}
+}
