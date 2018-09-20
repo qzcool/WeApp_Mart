@@ -1,10 +1,16 @@
 <!--pages/home/home.wxml-->
-<view class='focus-bunch'>
-  <view class='focus-header'>商品1</view>
-  <image class='focus-notice' src='/images/discount.png'></image>
-  <image class='focus-image' src='/images/discount-product.jpg'></image>
+<image src='/images/bg.png' class='bg'></image>
+<view class='hot-card'>
+  <view class='hot-name'>
+    <image class='hot-name-line' src='/images/line-red.png'></image>
+    <view class='hot-name-text'>{{productList[0].name}}</view>
+    <image class='hot-name-line' src='/images/line-red.png'></image>
+  </view>
+  <image class='hot-info' src='/images/discount.png'></image>
+  <image class='hot-image' src='{{productList[0].image}}'></image>
 </view>
-
-<view class='separator'>
-  春季推荐
+<view class='list-title'>
+  <image class='list-title-line' src='/images/line-black.png'></image>
+  <view class='list-title-text'>春季推荐</view>
+  <image class='list-title-line' src='/images/line-black.png'></image>
 </view>
